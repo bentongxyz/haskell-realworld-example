@@ -17,7 +17,7 @@ git clone https://github.com/nodew/haskell-realworld-example.git
 cd haskell-realworld-example
 
 # Run with docker
-docker-compose -f ./docker-compose.yml -f up
+docker-compose -f ./docker-compose.yml up
 
 # Otherwise, manually build
 stack build
